@@ -22,7 +22,7 @@ function NavBar() {
   };
 
   return (
-    <div className="">
+    <div className=" w-full">
       <div className="container mx-auto">
         <Layout>
           <Header className="bg-slate-700 px-4 md:px-8 xl:px-16 flex items-center justify-between">
