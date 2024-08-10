@@ -1,15 +1,6 @@
-
-import
-{ Button }
-from
-"antd"
-;
+import { Button } from "antd";
 const Home = () => {
-    return (
-        <div>
-        <Button type="primary">Click Me</Button>
-        </div>
-    );
+  return <div></div>;
 };
 
 export default Home;
