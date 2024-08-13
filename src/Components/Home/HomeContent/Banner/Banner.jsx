@@ -1,5 +1,4 @@
-import React from "react";
-import { Button, Carousel, ConfigProvider, Space } from "antd";
+import { Button, Carousel, ConfigProvider } from "antd";
 import img from "../../../../assets/images/bg-hero.jpg";
 function Banner() {
   return (
@@ -31,71 +30,74 @@ function Banner() {
             },
           }}
         >
-          <Carousel autoplay>
+          <Carousel>
             <div className="relative w-full h-screen flex justify-center items-center">
               <img
-                className="absolute top-0 left-0 w-full object-cover"
+                className="absolute top-0 left-0 w-full h-full object-cover"
                 src={img}
                 alt="Background img"
               />
 
-              <div className="relative text-center p-52">
-                <h1 className="text-6xl font-bold mb-4">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              <div className="relative text-center py-32 lg:p-52">
+                <h1 className="lg:text-6xl md:text-4xl text-xl font-bold mb-4">
+                  Web and mobile payment built for developers
                 </h1>
                 <p className="mb-6">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Dolores saepe tempore sapiente perferendis alias facilis!
-                  Commodi, rem, exercitationem natus sapiente inventore
-                  consectetur aliquid mollitia nam, ut repellendus molestias ea
-                  asperiores quibusdam molestiae enim labore facilis quaerat
-                  cum. Architecto, expedita recusandae.
+                  Our innovative web and mobile payment solutions make
+                  transactions fast, secure, and effortless for both you and
+                  your customers. Say goodbye to the hassle of traditional
+                  payment methods and embrace the future of seamless payments.
                 </p>
-                <Button type="primary">Join Us</Button>
+                <Button type="primary">Learn More</Button>
+                <Button type="primary" className="ml-2">
+                  Join Us
+                </Button>
               </div>
             </div>
             <div className="relative w-full h-screen flex justify-center items-center">
               <img
-                className="absolute top-0 left-0 w-full object-cover"
+                className="absolute top-0 left-0 w-full h-full object-cover"
                 src={img}
                 alt="Background img"
               />
 
-              <div className="relative text-center p-52">
-                <h1 className="text-6xl font-bold mb-4">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              <div className="relative text-center py-32 lg:p-52">
+                <h1 className="lg:text-6xl md:text-4xl text-xl font-bold mb-4">
+                  Web and mobile payment built for developers
                 </h1>
                 <p className="mb-6">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Dolores saepe tempore sapiente perferendis alias facilis!
-                  Commodi, rem, exercitationem natus sapiente inventore
-                  consectetur aliquid mollitia nam, ut repellendus molestias ea
-                  asperiores quibusdam molestiae enim labore facilis quaerat
-                  cum. Architecto, expedita recusandae.
+                  Our innovative web and mobile payment solutions make
+                  transactions fast, secure, and effortless for both you and
+                  your customers. Say goodbye to the hassle of traditional
+                  payment methods and embrace the future of seamless payments.
                 </p>
-                <Button type="primary">Join Us</Button>
+                <Button type="primary">Learn More</Button>
+                <Button type="primary" className="ml-2">
+                  Join Us
+                </Button>
               </div>
             </div>
             <div className="relative w-full h-screen flex justify-center items-center">
               <img
-                className="absolute top-0 left-0 w-full object-cover"
+                className="absolute top-0 left-0 w-full h-full object-cover"
                 src={img}
                 alt="Background img"
               />
 
-              <div className="relative text-center p-52">
-                <h1 className="text-6xl font-bold mb-4">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              <div className="relative text-center py-32 lg:p-52">
+                <h1 className="lg:text-6xl md:text-4xl text-xl font-bold mb-4">
+                  Web and mobile payment built for developers
                 </h1>
                 <p className="mb-6">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Dolores saepe tempore sapiente perferendis alias facilis!
-                  Commodi, rem, exercitationem natus sapiente inventore
-                  consectetur aliquid mollitia nam, ut repellendus molestias ea
-                  asperiores quibusdam molestiae enim labore facilis quaerat
-                  cum. Architecto, expedita recusandae.
+                  Our innovative web and mobile payment solutions make
+                  transactions fast, secure, and effortless for both you and
+                  your customers. Say goodbye to the hassle of traditional
+                  payment methods and embrace the future of seamless payments.
                 </p>
-                <Button type="primary">Join Us</Button>
+                <Button type="primary">Learn More</Button>
+                <Button type="primary" className="ml-2">
+                  Join Us
+                </Button>
               </div>
             </div>
           </Carousel>

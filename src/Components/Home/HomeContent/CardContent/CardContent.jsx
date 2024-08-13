@@ -1,13 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-import {
-  EditOutlined,
-  EllipsisOutlined,
-  SettingOutlined,
-} from "@ant-design/icons";
+import {} from "@ant-design/icons";
 import img2 from "../../../../assets/images/bg-works.jpg";
 
-import { Avatar, Button, Card, ConfigProvider, Modal } from "antd";
+import { Button, Card, ConfigProvider, Modal } from "antd";
 const { Meta } = Card;
 function CardContent() {
   const [isModalOpen, setIsModalOpen] = useState(false);
